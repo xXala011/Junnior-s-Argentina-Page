@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Trollface_non-free.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+    <title>Meme Wiki</title>
+</head>
+
+<body>
+    <header class="container">
+        <div>
+            <a href="index.html"><img src="./Trollface_non-free.png" alt="" class="hover-troll"></a>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li class=" fas fa-home hover-logo-inicio">Inicio</li>
+                </a>
+                <a href="Memes.html">
+                    <li class="fas fa-folder hover-logo-inicio">Memes</li>
+                </a>
+                <a href="Origen.html">
+                    <li class="fas fa-book hover-logo-inicio">Origen</li>
+                </a>
+                <a href="#contacto">
+                    <li class="fas fa-user-friends hover-logo-inicio">Contacto</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <video autoplay="true" muted="true" loop="true">
+            <source src="./videoplayback .mp4">
+        </video>
+    </div>
+    <section class="contenedor-body container text-center">
+        <div>
+            <h1>Meme Wiki</h1>
+            <p>
+                Es una pagina web donde podras encontrar los mejores memes de la historia, desde los primeros memes de la historia hasta los memes mas recientes.
+            </p>
+            <div class="Portada">
+                <img src="./memesportada.webp" alt="" class="container border img-fluid text-center d-block mx-auto">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                    <h2 class="text-center">Los mejores memes</h2>
+                    <div id="contenido">
+                        <img src="./portada1.png" alt="" class="col-md-12 img-fluid">
+
+                        <p>
+                            Es una pagina web donde podras encontrar los mejores memes de la generacion Z.
+                            Haz Click aqui debajo para entrar y aventurarte a explorar los mejores memes.
+                        </p>
+                        <a href="Memes.html"><button class="btn btn-primary">Ver mas</button></a>
+                    </div>
+                    <button onclick="verMas('contenido')" class="btn btn-primary">+</button>
+                </div>
+                <div class="col-md-4">
+
+                    <h2 class="text-center">Origen de los memes</h2>
+                    <div id="contenido2">
+                        <img src="./portada2.jpg" alt="" class="col-md-12 img-fluid">
+                        <p>En esta seccion podras encontrar informacion sobre el origen de los memes, desde los primeros memes de la historia hasta los memes mas recientes.
+                        </p>
+                        <a href="Origen.html"><button class="btn btn-primary">Ver mas</button></a>
+                    </div>
+                    <button onclick="verMas('contenido2')" class="btn btn-primary">+</button>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="text-center">Próximamente</h2>
+                    <div id="contenido3">
+                        <img src="./portada3.png" alt="" class="col-md-8 img-fluid d-block text-center">
+                        <p>
+                            Proximamente nuevo contenido en la pagina web, no te lo pierdas.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contacto">
+        <div class="container text-center">
+            <h3>Contacto</h3>
+            <a href="instagram.com"><i class="fab fa-instagram color-iconos"></i></a>
+            <a href="twitter.com"><i class="fab fa-twitter color-iconos"></i></a>
+            <a href="whatsapp.com"><i class="fab fa-whatsapp color-iconos"></i></a>
+            <a href="linkedin.com"><i class="fab fa-linkedin color-iconos"></i></a>
+            <a href="github.com"><i class="fab fa-github color-iconos"></i></a>
+
+        </div>
+        <div class="container text-center texto-footer">
+            <p>
+                Todos los derechos reservados ©Meme Wiki 2024
+            </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
